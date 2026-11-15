@@ -8,6 +8,7 @@
 **Étudiant :** DJELOU Komi Noé  
 
 ---
+Lien du dépot Github : https://github.com/noedjelou26-ctrl/Biblioth-que
 
 ## 1. Description du projet
 
@@ -146,18 +147,3 @@ Chaque livre est un tableau associatif possédant scrupuleusement les clés impo
 
 ---
 
-## 7. Guide de préparation à l'évaluation orale
-
-Pour expliquer le code à l'enseignant lors de la soutenance :
-
-1. **Architecture modulaire :**
-   - Expliquer que `require_once` est utilisé pour charger les fichiers cruciaux (`livres.php`, `fonctions.php`) : si le fichier est manquant, le script s'arrête avec une erreur fatale propre plutôt que de continuer avec un état corrompu.
-   - Les fichiers de présentation (`header.php`, `footer.php`) permettent d'éviter la duplication de code HTML sur chaque page (principe DRY - *Don't Repeat Yourself*).
-
-2. **Sécurité et validation :**
-   - Expliquer le rôle de `htmlspecialchars()` : cette fonction convertit les caractères spéciaux (`<`, `>`, `"`, `&`) en entités HTML, empêchant ainsi l'exécution de code JavaScript malveillant injecté dans les paramètres ou les données.
-   - Expliquer la validation de `$_GET['id']` avec `filter_var($id, FILTER_VALIDATE_INT)` : cela garantit qu'un utilisateur malveillant ne peut pas injecter de chaîne arbitraire à la place d'un nombre entier.
-
-3. **Calculs dynamiques :**
-   - Montrer comment `compterLivresDisponibles()` parcourt le tableau avec un simple compteur incrémenté chaque fois que `$livre['disponible'] === true`.
-   - Expliquer que la modification du tableau dans `data/livres.php` met à jour instantanément la page d'accueil, le catalogue et les filtres sans toucher au code des pages.

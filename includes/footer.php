@@ -7,12 +7,7 @@
  * Niveau  : Licence 2 (GL, WIM, DWM, IG, IA)
  * Auteur  : DJELOU Komi Noé (Licence IG)
  * Année   : 2026 - 2027
- * ============================================================================
- * Description :
- * Pied de page commun à l'ensemble du site.
- * Clôture les balises principales et affiche les mentions académiques
- * ainsi que le copyright dynamique.
- * ============================================================================
+ 
  */
 ?>
         </div><!-- Fin du .container -->

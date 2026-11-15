@@ -15,12 +15,7 @@
  * 2. filtrerParCategorie(array $livres, string $categorie): array
  * 3. trouverLivreParId(array $livres, int $id): ?array
  * 4. compterLivresDisponibles(array $livres): int
- *
- * Règles pédagogiques respectées :
- * - Typage explicite des paramètres et des valeurs de retour (PHP 8+).
- * - Sécurisation systématique de chaque affichage avec htmlspecialchars().
- * - Algorithmes simples et commentés étape par étape pour faciliter l'oral.
- * ============================================================================
+ 
  */
 
 /**

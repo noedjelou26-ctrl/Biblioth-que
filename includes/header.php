@@ -8,11 +8,7 @@
  * Auteur  : DJELOU Komi Noé (Licence IG)
  * Année   : 2026 - 2027
  * ============================================================================
- * Description :
- * En-tête commun à toutes les pages de l'application web.
- * Contient la déclaration DOCTYPE, les balises META, l'inclusion de la feuille
- * de style CSS, et la barre de navigation institutionnelle.
- * ============================================================================
+ 
  */
 
 // Détection de la page courante pour mettre en surbrillance le lien de menu actif
